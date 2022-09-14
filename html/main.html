@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="ko">
+
+	<meta charset="utf-8">
+	<title>Energy Planner</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=medium-dpi" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="subject" content="내용" />
+	<meta name="keywords" content="내용" />
+	<meta name="description" content="내용" />
+	<link rel="shortcut icon" href="../resource/images/favicon.ico" type="image/x-icon" />
+	<!-- css -->
+	<link rel="stylesheet" href="../resource/css/font.css">
+	<link rel="stylesheet" href="../resource/css/common.css">
+	<link rel="stylesheet" href="../resource/css/layout.css">
+	<link rel="stylesheet" href="../resource/css/responsive.css">
+	
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<!-- js -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="../resource/js/script.js"></script>
+	<script src="../resource/js/main.js"></script>
+</head>
+
+
+<body>
+	<!-- skipToContent -->
+	<div id="skipToContent">
+		<a href="#wrap">콘텐츠 바로가기 </a>
+	</div><!-- //skipToContent -->
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- header -->
+		<div class="header" id="header">
+			<div class="container">
+				<div class="head-cont">
+					<!-- 상단 로고 -->
+					<div class="head-logo">
+						<a href="../html/main.html">
+							<img src="../resource/images/header_logo_w.svg" alt="상단 로고">
+						</a>
+					</div><!-- //상단 로고 -->
+					<!-- 상단 메뉴 -->
+					<ul class="head-menu">
+						<li class="hm-list drop-menu">
+							<a href="#none">Features<img src="../resource/images/hm-drop-icon.svg"></a>
+							<ul class="hm-2">
+								<li class="hm-list2">
+									<a href="../html/solar_planset.html">Solar Planset</a>
+								</li>
+								<li class="hm-list2">
+									<a href="../html/solar_layout.html">Solar Layout</a>
+								</li>
+								<li class="hm-list2">
+									<a href="../html/design_tool.html">Design tool</a>
+								</li>
+								<li class="hm-list2">
+									<a href="../html/project_management.html">Project management</a>
+								</li>
+							</ul>
+						</li>
+						<li class="hm-list drop-menu">
+							<a href="#none">About Us<img src="../resource/images/hm-drop-icon.svg"></a>
+							<ul class="hm-2">
+								<li class="hm-list2">
+									<a href="../html/company.html">Company</a>
+								</li>
+								<li class="hm-list2">
+									<a href="../html/pricing.html">Pricing</a>
+								</li>
+								<li class="hm-list2">
+									<a href="../html/contact.html">Contact us</a>
+								</li>
+							</ul>
+						</li>
+						<li class="hm-list">
+							<a href="../html/faq.html">FAQ</a>
+						</li>
+						<li class="hm-list">
+							<a href="../html/blog.html">Blog</a>
+						</li>
+					</ul><!-- //상단 메뉴 -->
+					<!-- 상단 로그인 회원가입 버튼 -->
+					<ul class="head-btnBox">
+						<li class="hb-login btn-w btn">
+							<a href="#none">Customer Login</a>
+						</li>
+						<li class="hb-signup btn-o btn">
+							<a href="#none">Sign Up</a>
+						</li>
+					</ul><!-- //상단 로그인 회원가입 버튼 -->
+					<!-- 모바일 메뉴 열기 버튼 -->
+					<div class="head-mo-menu-btn">
+						<img src="../resource/images/header_mo_menu-ico.svg" alt="모바일 메뉴 버튼">
+					</div><!-- //모바일 메뉴 열기 버튼  -->
+				</div><!-- //head-cont -->
+			</div><!-- //container -->
+			<div id="mobile-menu">
+				<div class="mm-wrap">
+					<div class="mm-cover" onclick="history.back();"></div>
+					<div class="mm-cont">
+						<div class="mm-head">
+							<div class="mm-head-logo">
+								<a href="../html/main.html">
+									<img src="../resource/images/header_logo_b.svg" alt="상단 로고">
+								</a>
+							</div>
+							<div class="mm-head-close" onclick="history.back();">
+								<img src="../resource/images/menu-close-btn.svg" alt="메뉴 닫기 버튼">
+							</div>
+						</div><!-- //모바일 메뉴 헤더 -->
+						<ul class="mm-nav">
+							<li>
+								<a href="#none">
+									Features
+								</a>
+							</li>
+							<ul class="mm-nav-sub">
+								<li>
+									<a href="../html/solar_planset.html">Solar Planset</a>
+								</li>
+								<li>
+									<a href="../html/solar_layout.html">Solar Layout</a>
+								</li>
+								<li>
+									<a href="../html/design_tool.html">Design tool</a>
+								</li>
+								<li>
+									<a href="../html/project_management.html">Project management</a>
+								</li>
+							</ul>
+							<li>
+								<a href="#none">
+									About Us
+								</a>
+							</li>
+							<ul class="mm-nav-sub">
+								<li>
+									<a href="../html/company.html">Company</a>
+								</li>
+								<li>
+									<a href="../html/pricing.html">Pricing</a>
+								</li>
+								<li>
+									<a href="../html/contact.html">Contact Us</a>
+								</li>
+							</ul>
+							<li>
+								<a href="../html/faq.html">
+									FAQ
+								</a>
+							</li>
+							<li>
+								<a href="../html/blog.html">
+									Blog
+								</a>
+							</li>
+						</ul><!-- //모바일 메뉴 -->
+						<div class="mm-foot">
+							<div class="mm-foot-login">
+								<a href="#">
+									Customer Login
+								</a>
+							</div>
+							<div class="mm-foot-signup">
+								<a href="#">
+									Sign Up
+								</a>
+							</div>
+						</div><!-- //모바일 메뉴 하단 -->
+					</div>
+
+				</div>
+			</div><!-- //모바일 메뉴 -->
+		</div><!-- //header -->
+
+		<!-- Hero Section (main slide) -->
+		<div class="hero">
+			<div class="main-slider">
+				<div class="main-wrapper">
+					<div class="main-slide ms01">
+						<div class="main-slide-content">
+							<div class="main-slide-tit">
+								Fast Easy Accurate<br class="br-none" />
+								Solar Planset and Layout
+							</div>
+							<p class="main-slide-txt">
+								The most efficient way to get solar Planset and Layout<br class="br-none" />
+								From mapping simulation to ordering and managing projects.<br class="br-none" />
+								Save your time &amp; money Your Sol-mate, Energy Planner
+							</p>
+							<div class="btn-o btn msBtn">
+								<a href="#none">JOIN US TODAY</a>
+							</div>
+						</div>
+					</div>
+					<div class="main-slide ms02">
+						<div class="main-slide-content">
+							<div class="main-slide-tit">
+								Fast Easy Accurate<br class="br-none" />
+								Solar Planset and Layout
+							</div>
+							<p class="main-slide-txt">
+								The most efficient way to get solar Planset and Layout<br class="br-none" />
+								From mapping simulation to ordering and managing projects.<br class="br-none" />
+								Save your time &amp; money Your Sol-mate, Energy Planner
+							</p>
+							<div class="btn-o btn msBtn">
+								<a href="#none">JOIN US TODAY</a>
+							</div>
+						</div>
+					</div>
+					<div class="main-slide ms03">
+						<div class="main-slide-content">
+							<div class="main-slide-tit">
+								Fast Easy Accurate<br class="br-none" />
+								Solar Planset and Layout
+							</div>
+							<p class="main-slide-txt">
+								The most efficient way to get solar Planset and Layout<br class="br-none" />
+								From mapping simulation to ordering and managing projects.<br class="br-none" />
+								Save your time &amp; money Your Sol-mate, Energy Planner
+							</p>
+							<div class="btn-o btn msBtn">
+								<a href="#none">JOIN US TODAY</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Hero Section (main slide) -->
+		<!-- Our Service Section -->
+		<div class="ourService">
+			<div class="container">
+				<div class="our-infoText">
+					<div class="oi-tit">Our Service</div>
+					<div class="oi-txt">
+						We aim to accelerate solar energy<br class="br-none">
+						and make it more affordable
+					</div>
+				</div>
+				<div class="our-infoBox">
+					<div class="oib-left">
+						<div class="oib-content">
+							<div class="oib-imgbox">
+								<img src="../resource/images/design-tool-ico.svg" alt="design tool icon">
+							</div>
+							<div class="oibc-tit">Design Tool</div>
+							<div class="oibc-txt">
+								Make your own solar layout<br class="br-none">
+								with our user-friendly designing tool
+							</div>
+							<div class="oib-content-hover">
+								<div class="och-contBox">
+									<div class="oibc-tit">Design Tool</div>
+									<div class="oibc-txt">
+										Make your own solar layout<br class="br-none">
+										with our user-friendly designing tool
+									</div>
+									<div class="btn">
+										<a href="#none">VIEW MORE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="oib-content">
+							<div class="oib-imgbox">
+								<img src="../resource/images/planset-ico.svg" alt="planset icon">
+							</div>
+							<div class="oibc-tit">Planset</div>
+							<div class="oibc-txt">
+								Simple order online residential solar<br class="br-none">
+								planset covering all of 50-states.
+							</div>
+							<div class="oib-content-hover">
+								<div class="och-contBox">
+									<div class="oibc-tit">Planset</div>
+									<div class="oibc-txt">
+										Simple order online residential solar<br class="br-none">
+										planset covering all of 50-states.
+									</div>
+									<div class="btn">
+										<a href="#none">VIEW MORE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="oib-right">
+						<div class="oib-content">
+							<div class="oib-imgbox">
+								<img src="../resource/images/layout-ico.svg" alt="layout icon">
+							</div>
+							<div class="oibc-tit">Layout</div>
+							<div class="oibc-txt">
+								Request solar layout to experts<br class="br-none">
+								takes only a few minutes to order!
+							</div>
+							<div class="oib-content-hover">
+								<div class="och-contBox">
+									<div class="oibc-tit">Layout</div>
+									<div class="oibc-txt">
+										Request solar layout to experts<br class="br-none">
+										takes only a few minutes to order!
+									</div>
+									<div class="btn">
+										<a href="#none">VIEW MORE</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="oib-content">
+							<div class="oib-imgbox">
+								<img src="../resource/images/pm-ico.svg" alt="Project Management icon">
+							</div>
+							<div class="oibc-tit">Project Management</div>
+							<div class="oibc-txt">
+								Manage your solar projects<br class="br-none">
+								with your team.
+							</div>
+							<div class="oib-content-hover">
+								<div class="och-contBox">
+									<div class="oibc-tit">Project Management</div>
+									<div class="oibc-txt">
+										Manage your solar projects<br class="br-none">
+										with your team.
+									</div>
+									<div class="btn">
+										<a href="#none">VIEW MORE</a>
+									</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Our Service Section -->
+		<!-- why energy planner Section -->
+		<div class="weplanner">
+			<div class="weplan-imgbox">
+				<img src="../resource/images/weplan-img.png" alt="why energy planner image">
+			</div>
+			<div class="weplan-content-wrap">
+				<div class="weplan-content">
+					<div class="wepc-tit">Why Energy Planner?</div>
+					<div class="wepc-txt">We aim to accelerate solar energy and make it more affordable</div>
+					<ul class="wepc-box-wrap">
+						<li class="wepc-box">
+							<div class="wepc-box-tit">Affordable</div>
+							<div class="wepc-box-txt">
+								Are you looking for outsourcing to reduce costs and expand savings?<br class="br-none">
+								Welcome to Energy Planner.<br class="br-none">
+								We provide the most affordable price in the area!<br class="br-none">
+								Experience the exclusive member deals. No extra cost to get on board!
+							</div>
+						</li>
+						<li class="wepc-box">
+							<div class="wepc-box-tit">Fast Turnaround</div>
+							<div class="wepc-box-txt">
+								We value your time. When placed order,<br class="br-none">
+								It only takes up to 2 business days to get complete Planset.<br class="br-none">
+								No more long waiting! Our fast service will save you time.
+							</div>
+						</li>
+						<li class="wepc-box">
+							<div class="wepc-box-tit">Accurate, High-Quality</div>
+							<div class="wepc-box-txt">
+								Who would care if it’s low quality?<br class="br-none">
+								Energy Planner team has many years of experience in the solar industry.<br class="br-none">
+								We assure you the high-quality results and satisfying service.
+							</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<!-- //why energy planner Section -->
+		<!-- hello solar installers Section -->
+		<div class="solar">
+			<div class="solar-content">
+				<div class="solar-tit">Hello Solar Installers</div>
+				<div class="solar-txt">We're your Sol-mate, Energy Planner</div>
+				<div class="solar-video">
+					<div class="sv-sec">
+						<img src="../resource/images/video-cover.png" alt="videoimg">
+					</div>
+					<div class="solar-plug">
+						<img src="../resource/images/solar-plug.png" alt="plug img">
+					</div>
+				</div>
+			</div>
+
+			<div class="solar-underbg"></div>
+		</div>
+		<!-- //hello solar installers Section -->
+		<!-- what our customers say Section -->
+		<div class="review">
+			<div class="container">
+				<div class="review-tit">What our customers say?</div>
+				<div class="review-slide-wrap">
+					<div class="review-slide-cont">
+						<div class="review-slide">
+							<div class="review-detail">
+								<div class="review-imgbox">
+									<img src="../resource/images/review-person.png" alt="리뷰프로필">
+								</div>
+								<div class="review-name">David Yoo</div>
+								<div class="review-job">CEO, Pingo Solar</div>
+								<div class="review-text">
+									It was easy, accurate and fast as they promised!<br class="br-none">
+									I would love to recommend you all Energy Planner!
+								</div>
+							</div>
+						</div><!-- 1번 슬라이드 -->
+						<div class="review-slide">
+							<div class="review-detail">
+								<div class="review-imgbox">
+									<img src="../resource/images/review-person.png" alt="리뷰프로필">
+								</div>
+								<div class="review-name">Scott Ahn</div>
+								<div class="review-job">Manager, Cenergy Power</div>
+								<div class="review-text">
+									Efficient way to get solar Planset.<br class="br-none">
+									They made my work much easier.<br class="br-none">
+									Definitely recommending!
+								</div>
+							</div>
+						</div><!-- 2번 슬라이드 -->
+						<div class="review-slide">
+							<div class="review-detail">
+								<div class="review-imgbox">
+									<img src="../resource/images/review-person.png" alt="리뷰프로필">
+								</div>
+								<div class="review-name">Daniel Kim</div>
+								<div class="review-job">CEO, Electroech Services</div>
+								<div class="review-text">
+									Very impressed by their work!<br class="br-none">
+									Assigned CAD engineers were professional,<br class="br-none">
+									and customer service was satisfying.
+								</div>
+							</div>
+						</div><!-- 3번 슬라이드 -->
+						<div class="review-slide">
+							<div class="review-detail">
+								<div class="review-imgbox">
+									<img src="../resource/images/review-person.png" alt="리뷰프로필">
+								</div>
+								<div class="review-name">Daniel Kim</div>
+								<div class="review-job">CEO, Electroech Services</div>
+								<div class="review-text">
+									Very impressed by their work!<br class="br-none">
+									Assigned CAD engineers were professional,<br class="br-none">
+									and customer service was satisfying.
+								</div>
+							</div>
+						</div><!-- 4번 슬라이드 -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- // what our customers say Section -->
+		<!-- free to get on board Section -->
+		<div class="main-contact-banner">
+			<div class="container">
+				<div class="mcb-wrap">
+					<div class="mcb-tit">Free To Get On Board</div>
+					<div class="mcb-txt">Do you want to find out more information?</div>
+					<div class="mcb-btn btn btn-o">
+						<a href="../html/contact.html">CONTACT US</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //free to get on board Section -->
+		<!-- footer -->
+		<div id="footer" class="footer">
+			<div class="container">
+				<div class="footer-top clearfix">
+					<div class="footer-logo">
+						<a href="../html/main.html">
+							<img src="../resource/images/header_logo_w.svg" alt="상단 로고">
+						</a>
+					</div><!-- //footer-logo -->
+					
+					<ul class="footer-sns mobileSns">
+						<li>
+							<a href="#none" target="_blank" class="insta">
+								<img src="../resource/images/insta.svg" alt="인스타그램 아이콘">
+							</a>
+						</li>
+						<li>
+							<a href="#none" target="_blank" class="facebook">
+								<img src="../resource/images/facebook.svg" alt="페이스북 아이콘">
+							</a>
+						</li>
+						<li>
+							<a href="#none" target="_blank" class="youtube">
+								<img src="../resource/images/youtube.svg" alt="유튜브 아이콘">
+							</a>
+						</li>
+						<li>
+							<a href="#none" target="_blank" class="linkedin">
+								<img src="../resource/images/linkedin.svg" alt="링크드인 아이콘">
+							</a>
+						</li>
+					</ul><!-- //footer-sns -->
+					<ul class="footer-menu">
+						<li class="light">
+							<a href="#none">Customer Login</a>
+						</li>
+						<li class="light">
+							<a href="#none">Sign Up</a>
+						</li>
+						<li>
+							<a href="../html/terms_of_use.html">Terms of use</a>
+						</li>
+						<li>
+							<a href="../html/privacy_policy.html">Privacy policy</a>
+						</li>
+					</ul><!-- //footer-menu -->
+					<ul class="footer-sns">
+						<li>
+							<a href="#none" target="_blank" class="insta">
+								<img src="../resource/images/insta.svg" alt="인스타그램 아이콘">
+							</a>
+						</li>
+						<li>
+							<a href="#none" target="_blank" class="facebook">
+								<img src="../resource/images/facebook.svg" alt="페이스북 아이콘">
+							</a>
+						</li>
+						<li>
+							<a href="#none" target="_blank" class="youtube">
+								<img src="../resource/images/youtube.svg" alt="유튜브 아이콘">
+								
+							</a>
+						</li>
+						<li>
+							<a href="#none" target="_blank" class="linkedin">
+								<img src="../resource/images/linkedin.svg" alt="링크드인 아이콘">
+							</a>
+						</li>
+					</ul><!-- //footer-sns -->
+				</div><!-- //footer-top -->
+				<div class="footer-bottom">
+					<div class="footer-contact">
+						<div>
+							<span class="fc-tit">Contact</span>
+							<ul class="fc-txt">
+								<li>19700 S. Vermont Ave., Suite 200, <br class="br-none">Torrance, CA 90502, United States</li>
+								<li><a href="mailto:hi@energyplanner.ai">hi@energyplanner.ai</a></li>
+								<li><a href="tel:+1 714-262-0003">(+1) 714-262-0003</a></li>
+							</ul>
+							<span class="copyright">ⓒ 2022 Energy Planner</span>
+						</div>
+					</div><!-- //footer-contact -->
+					<div class="footer-detail-menu">
+						<ul class="fd-menu01">
+							<span class="fd-tit">Features</span>
+							<li><a href="../html/solar_planset.html">Solar Planset</a></li>
+							<li><a href="../html/solar_layout.html">Solar Layout</a></li>
+							<li><a href="../html/design_tool.html">Design tool</a></li>
+							<li><a href="../html/project_management.html">Project management</a></li>
+						</ul>
+						<ul class="fd-menu02">
+							<span class="fd-tit">About Us</span>
+							<li><a href="../html/company.html">Company</a></li>
+							<li><a href="../html/pricing.html">Pricing</a></li>
+							<li><a href="../html/contact.html">Contact us</a></li>
+						</ul>
+						<ul class="fd-menu03">
+							<li><a class="fd-tit" href="../html/faq.html">FAQ</a></li>
+							<li><a class="fd-tit" href="../html/blog.html">Blog</a></li>
+						</ul>
+					</div><!-- //footer-detail-menu -->
+					<div class="footer-tablet">
+						<ul class="footer-sns-mobile">
+							<li>
+								<a href="#none" target="_blank" class="insta">
+									<img src="../resource/images/insta.svg" alt="인스타그램 아이콘">
+								</a>
+							</li>
+							<li>
+								<a href="#none" target="_blank" class="facebook">
+									<img src="../resource/images/facebook.svg" alt="페이스북 아이콘">
+								</a>
+							</li>
+							<li>
+								<a href="#none" target="_blank" class="youtube">
+									<img src="../resource/images/youtube.svg" alt="유튜브 아이콘">
+								</a>
+							</li>
+							<li>
+								<a href="#none" target="_blank" class="linkedin">
+									<img src="../resource/images/linkedin.svg" alt="링크드인 아이콘">
+								</a>
+							</li>
+						</ul><!-- //footer-sns -->
+
+						<span class="copyright">ⓒ 2022 Energy Planner</span>
+
+					</div>
+					
+				</div><!-- //footer-bottom -->
+			</div><!-- //container -->
+			<div class="footer-fix-menu">
+				<div class="kakao-plus">
+					<a href="#none" target="_blank">
+						<svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M15 0C6.71581 0 0 6.90257 0 15.4171C0 19.2567 1.36565 22.7667 3.62422 25.466C2.946 27.4701 1.69185 29.1967 0.0654257 30.4374C1.09842 30.8002 2.20605 31 3.35883 31C5.33081 31 7.17195 30.4232 8.73203 29.4259C10.6395 30.3294 12.7626 30.8343 15 30.8343C23.2842 30.8343 30 23.9317 30 15.4171C30 6.90257 23.2851 0 15 0ZM7.78013 17.6561C6.75636 17.6561 5.9261 16.8028 5.9261 15.7505C5.9261 14.6983 6.75544 13.8449 7.78013 13.8449C8.80483 13.8449 9.63417 14.6983 9.63417 15.7505C9.63417 16.8028 8.80483 17.6561 7.78013 17.6561ZM15 17.6561C13.9762 17.6561 13.146 16.8028 13.146 15.7505C13.146 14.6983 13.9762 13.8449 15 13.8449C16.0238 13.8449 16.854 14.6983 16.854 15.7505C16.854 16.8028 16.0247 17.6561 15 17.6561ZM22.2199 17.6561C21.1961 17.6561 20.3658 16.8028 20.3658 15.7505C20.3658 14.6983 21.1961 13.8449 22.2199 13.8449C23.2436 13.8449 24.0739 14.6983 24.0739 15.7505C24.0739 16.8028 23.2436 17.6561 22.2199 17.6561Z" fill="#C9D0E4"/>
+						</svg>
+					</a>
+				</div>
+				<div class="go-top">
+					<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M22.5 21L15 13.5L7.5 21L4.5 19.5L15 9L25.5 19.5L22.5 21Z" fill="#C9CFE3"/>
+					</svg>
+				</div>
+			</div><!-- //footer-fix-menu -->
+		</div>
+		<!-- //footer -->
+	</div>
+</body>
+
+</html>
