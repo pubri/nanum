@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* **************************************** *
+ * Banner
+ * **************************************** */
+ .contact-banner{width: 100%;height: 600px;background:url('../images/about-bg.png') no-repeat center/cover;display: flex;flex-flow:column nowrap;justify-content: flex-start;align-items: center;padding-top: 130px;}
+ .contact-banner .contact-tit{font-weight: 700;font-size: 60px;line-height: 72px;letter-spacing:-0.03em;color:var(--white-color);margin-bottom: 20px;}
+ .contact-banner .contact-txt{font-weight: 500;font-size: 26px;line-height: 30px;letter-spacing:-0.04em;color:var(--white-color);text-align: center;}
+ input::placeholder {
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    color: #A9A9A9;
+}
+
+textarea::placeholder {
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    color: #A9A9A9;
+}
+ 
+ /* **************************************** *
+  * contact projects
+  * **************************************** */
+ .contact-projects{height: 700px;position: relative;}
+ .contact_body {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -270px;
+    width: 1350px;
+    margin-right: 20px;
+    background-color: var(--white-color);
+    padding: 0 0 80px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 30px rgba(185, 185, 185, 0.25));
+}
+.contact_wrap {
+    width: 58%;
+    display: inline-block;
+    float: left;
+    padding: 40px;
+}
+
+.contact_location_wrap {
+    display: inline-block;
+    float: right;
+    width: 38%;
+    padding: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height, or 150% */
+    letter-spacing: -0.02em;
+    color: #5B5B5B;
+}
+.contact_location_wrap h2 {
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    color: #FF9110;
+}
+
+.contact_location_wrap ul li img {
+    padding: 30px 0 40px 0;
+}
+
+.contact_location_wrap a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #5B5B5B;
+}
+
+.contact_location_wrap ul li {
+    padding: 0 0 20px 0;
+}
+
+.contact_wrap:before {
+    content: '';
+    background: #E9E9E9;
+    width: 1px;
+    height: 787px;
+    position: absolute;
+    right: 540px;
+    top: 0;
+}
+
+/* contact form */
+.contact_form_field>li.contact_form_field_half {width: 50%;margin-top: 0;}
+.contact_form_field>li {float: left;width: 100%;margin-top: 15px;}
+.form-control-wrap {
+    position: relative;
+}
+
+.form_field_recruit {
+    width: 100%;
+    height: 250px;
+    background: #FFF;
+}
+
+.contact_form_field {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+/* identical to box height, or 167% */
+    letter-spacing: -0.04em;
+    color: #A9A9A9;
+}
+.contact_form_field>li.contact_form_field_first_name{
+    padding-right: 2%;
+    margin-top: 0;
+}
+#your-first-name, #your-last-name, #your-email, #your-number, #your-company {
+    height: 55px;
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+/* identical to box height, or 167% */
+    letter-spacing: -0.04em;
+    color: #A9A9A9;
+    padding: 0 20px;
+}
+.form_field {
+    border: solid 1px #E9E9E9 !important;
+    border-radius: 10px;
+    padding: 14px;
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+/* identical to box height, or 167% */
+    letter-spacing: -0.04em;
+    color: #A9A9A9;
+    padding: 15px 20px;
+}
+/* send btn */
+.form-send {
+    background: #FF9110;
+    display: inline-block;
+    border: 1px solid #FF9110;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.form-send a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    width: 242px;
+    height: 65px;
+    display: inline-block;
+    text-align: center;
+    line-height: 65px;
+}
+
+/* location svg icon */
+.help_mail_icon {
+    margin-right: 20px;
+}
+
+.help_clock_icon {
+    margin-right: 20px;
+    margin-bottom: -2px;
+}
+
+.help_tal_icon {
+    margin-right: 20px;
+    margin-bottom: -2px;
+}

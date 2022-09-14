@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* **************************************** *
+ * CSS Variables
+ * **************************************** */
+/*
+ * File       : responsive.css
+ * DATA       : 2022.08.28
+ * Author     : @ansk28
+ * Guideline  : SUPERBEE.1.0.0
+ *
+ * SUMMARY:
+ * 1) media screen and (max-width: 1920px)
+ * 2) media screen and (max-width: 1720px)
+ * 3) media screen and (max-width: 1500px)
+ * 4) media screen and (max-width: 1420px)
+ * 5) media screen and (max-width: 1240px)
+ * 6) media screen and (max-width: 1023px)
+ * 7) media screen and (max-width: 767px)
+ * 8) media screen and (max-width: 399px)
+ * 9) media screen and (max-width: 359px)
+ */
+
+
+/* **************************************** *
+ * media screen and (max-width: 1920px)
+ * **************************************** */
+  /*
+  * SUMMARY:
+  * 1) Banner
+  * 2) You can us our Design tool for 
+  * 3) How to use?
+  * 4) See How it Works
+  */
+
+/* **************************************** *
+* Banner
+* **************************************** */
+  .banner-section{background:url(../images/sub03_bg.png) no-repeat center/cover;width: 100%;background-color: var(--gray-color-02);height: 650px;display: flex;align-items: center;}
+  .banner-section .container .sub-banner{width: 100%;height: 100%;display: flex;align-items: center;}
+  .banner-section .container .sub-banner .sb-cont{width: 100%;}
+  .banner-section .container .sub-banner .sb-cont .sb-tit2 h2{font-style: normal;font-weight: 700;font-size: 60px;line-height: 87px;color: var(--white-color);letter-spacing: -0.03em;}
+  .banner-section .container .sub-banner .sb-cont .sb-txt{font-style: normal;font-weight: 500;font-size: 22px;line-height: 30px;color: var(--white-color);letter-spacing: -0.04em;margin-top: 20px;}
+  .banner-section .container .sub-banner .sb-cont .sub-bnr-Btn{width: 242px;margin-top: 75px;}
+  
+  .banner-section .container .sub-banner .sb-cont .btn a::after{content: "JOIN US TODAY!";}
+
+/* **************************************** *
+* You can us our Design tool for  
+* **************************************** */
+.Design_tool{
+    background: #FAFAFC;
+    padding: 130px 0;
+}
+.Design_tool .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.Design_tool .container .dt-tit, .Design_tool .container .dt-iconBox{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Design_tool .container .dt-tit{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing:-0.03em;
+    color:var(--black-color);
+    text-align: center;
+}
+.Design_tool .container .dt-content .dtc-tit{
+    display: flex;
+    flex-flow: row wrap;
+    width: auto;
+    position: relative;
+    align-content: center;
+}
+.Design_tool .container .dt-content .dtc-tit a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--gray-color-01);
+  border-radius: 10px;
+  width: 620px;
+  height: 104px;
+  text-align: left;
+  padding:  0 10%;
+  cursor: pointer;
+  color: var(--orange-color);
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  transition-duration: 1.5s, 0.1s; 
+  background-color: var(--white-color);
+}
+.Design_tool .container .dt-content .dtc-tit .dtc-tit-hover{
+  display: none;
+  flex-flow: row wrap;
+  position: absolute;
+  top: 0;
+  right: 0; 
+}
+.Design_tool .container .dt-content .dtc-tit .dtc-tit-hover a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--gray-color-01);
+  border-radius: 10px;
+  width: 620px;
+  height: 104px;
+  text-align: left;
+  padding:  0 10%;
+  cursor: pointer;
+  color: var(--white-color);
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  transition-duration: 1.5s, 0.1s;
+  background-image:linear-gradient(180deg, #FF9110 0%, #FFB801 100%);
+
+}
+.Design_tool .container .dt-content .dtc-tit02{    
+  margin-top: 20px;
+}
+
+
+/* **************************************** *
+* How to use?
+* **************************************** */
+.howtouse{
+    padding: 130px 0;
+    background: url(../images/howtouse-bg.png) no-repeat center bottom;
+}
+.howtouse .container{
+    width: 1222px;
+}
+.howtouse .container .htu-tit{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing:-0.03em;
+    padding-bottom: 80px;
+    color:var(--black-color);
+    text-align: center;
+}
+ /* How to use timeline */
+.ag-format-container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .ag-timeline_item {
+    margin: 0 0 50px;
+    text-align: right;
+    position: relative;
+  }
+  .ag-timeline_item:nth-child(2n) {
+    text-align: left;
+  }
+  
+  .ag-timeline {
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  
+    position: relative;
+  }
+  .ag-timeline_line {
+    width: 2px;
+    background-color:var(--gray-color-01);
+  
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    bottom: 0;
+  
+    overflow: hidden;
+  
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .ag-timeline_line-progress {
+    width: 100%;
+    height: 20%;
+    background-color: var(--orange-color);
+  }
+  
+  .ag-timeline-card_box {
+    padding: 0 0 20px 50%;
+  }
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
+    padding: 0 50% 20px 0;
+  }
+  .ag-timeline-card_point-box:nth-child(2n+1) {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+  /* .ag-timeline-card_point-box {
+    display: inline-block;
+    margin: 0 14px 0 -28px;
+  } */
+  .ag-timeline-card_point {
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    background: url(../images/timeline-pointer.svg) no-repeat center;
+  
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+  
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .ag-timeline-card_item {
+    display: inline-block;
+    width: 45%;
+    border: 1px solid var(--gray-color-01);
+    opacity: 0;
+  
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    -moz-transition: -moz-transform 0.5s, opacity 0.5s;
+    -o-transition: -o-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+  
+    position: relative;
+  }
+  .ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_item {
+    -webkit-transform: translateX(200%);
+    -moz-transform: translateX(200%);
+    -ms-transform: translateX(200%);
+    -o-transform: translateX(200%);
+    transform: translateX(200%);
+  }
+  .ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -ms-transform: translateX(-200%);
+    -o-transform: translateX(-200%);
+    transform: translateX(-200%);
+  }
+  .js-ag-active.ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_item,
+  .js-ag-active.ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+    opacity: 1;
+  
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .ag-timeline-card_img-box {
+    padding: 25px;
+    background-color: var(--gray-color-01);
+  }
+  .ag-timeline-card_img {
+    width: 100%;
+  }
+  .ag-timeline-card_info {
+    padding: 0 23px 30px;
+    background-color: var(--white-color);
+  }
+  .ag-timeline-card_title {
+    padding: 25px 0 0;
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--orange-color);
+    text-align: center;
+  }
+  .ag-timeline-card_desc {
+    line-height: 28px;
+    font-size: 18px;
+    color:var(--gray-color-03);
+    margin: 10px 0 0;
+    text-align: center;
+  }
+  .ag-timeline-card_desc span{
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    color:var(--gray-color-03);
+    margin: 10px 0 0;
+    text-align: center;
+    letter-spacing: -0.04em;
+  }
+
+  /* **************************************** *
+* See How it Works 
+* **************************************** */
+.see_how_it_works{
+    padding: 130px 0 ;
+}
+.see_how_it_works .container .shiw-tit{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    padding: 0 0 80px;
+    letter-spacing:-0.03em;
+    color:var(--black-color);
+    text-align: center;
+}
+.see_how_it_works .container .shiw-videoBox{
+    text-align: center;
+    width: 100%;
+}
+.see_how_it_works .container .shiw-videoBox img{
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,397 @@
+@charset "utf-8";
+/* **************************************** *
+ * media screen and (max-width: 1720px)
+ * **************************************** */
+  /*
+  * SUMMARY:
+  * 1) common
+  * 2) Header
+  * 3) Hero Section
+  * 4) Why Energy Planner? Section
+  * 5) TITLE
+  * 6) TITLE
+  * 7) TITLE
+  */
+@media screen and (max-width: 1720px) {
+
+  /* common */
+  .container {width: 100%;padding:0 30px;}
+  .banner-section .container{width: 100%;height:auto;padding: 0 30px;}
+
+
+  /* Header */
+  #header .container{width: 100%;padding:0 30px;}
+
+}
+
+/* **************************************** *
+ * media screen and (max-width: 1500px)
+ * **************************************** */
+  /*
+  * SUMMARY:
+  * 1) Hero Section
+  * 2) TITLE
+  * 3) TITLE
+  * 4) TITLE
+  * 5) TITLE
+  * 6) TITLE
+  * 7) TITLE
+  */
+@media screen and (max-width: 1500px){
+
+
+}
+
+/* **************************************** *
+ * media screen and (max-width: 1420px)
+ * **************************************** */
+  /*
+  * SUMMARY:
+  * 1) Our Service Section
+  * 2) Why Energy Planner? Section
+  * 3) Hello Solar Installers Section
+  */
+@media screen and (max-width:1420px){
+  
+}
+
+@media screen and (max-width:1300px){
+
+}
+
+/* **************************************** *
+ * media screen and (max-width: 1240px)
+ * **************************************** */
+  /*
+  * SUMMARY:
+  * 1) Hero Section
+  * 2) Hello Solar Installers Section
+  * 3) what our customers say Section
+  * 4) TITLE
+  * 5) TITLE
+  * 6) TITLE
+  * 7) TITLE
+  */
+@media screen and (max-width: 1240px){
+  /* How to Use */
+  .howtouse .container{
+    width: 100%;
+  }
+}
+@media screen and (max-width:1100px){
+  /* You can us our Design tool for */
+  .Design_tool .container .dt-content .dtc-tit a{
+    width: 500px;
+    height: 100px;
+    padding:  0 30px; 
+  }
+  .Design_tool .container .dt-content .dtc-tit .dtc-tit-hover a{
+    width: 500px;
+    height: 100px;
+    padding:  0 30px; 
+  }
+    
+
+
+}
+
+
+/* **************************************** *
+ * media screen and (max-width: 1023px) -- tablet
+ * **************************************** */
+  /*
+  * SUMMARY:
+  * 1) Header
+  * 2) Hero Section
+  * 3) Our Service Section
+  * 4) Why Energy Planner? Section
+  * 5) Hello Solar Installers Section
+  * 6) free to get on board Section
+  * 7) TITLE
+  */
+
+
+@media screen and (max-width: 1023px){
+
+  /* Header */
+  #header{height: 107px;}
+  #header .container .head-cont .head-menu,
+  #header .container .head-cont .head-btnBox{display: none;}
+  #header .container .head-cont .head-mo-menu-btn{display: block;cursor: pointer;}
+
+  #header.on{height: 87px;}
+
+  /* footer */
+  #footer .footer-top .footer-sns, #footer .footer-bottom .footer-detail-menu,
+  #footer .footer-bottom .footer-contact .copyright{display: none;}
+  #footer .footer-top .footer-menu{float: right;}
+  #footer .footer-top .footer-logo{margin-right: 0;}
+  #footer .footer-top .footer-menu li{margin-right: 15px;}
+  #footer .footer-top .footer-menu li a{font-size: 16px;line-height: 19px;}
+
+
+  #footer .footer-bottom .footer-sns-mobile{display: flex;flex-flow:row nowrap;}
+  #footer .footer-bottom .footer-sns-mobile li{margin-left: 25px;}
+  #footer .footer-bottom .footer-sns-mobile li a {display: flex;justify-content: center;}
+  #footer .footer-bottom .footer-sns-mobile li:first-child{margin-left: 0px;}
+
+  #footer .footer-bottom .footer-tablet{display: flex;flex-flow:column nowrap;justify-content: space-between;align-items: flex-end;}
+  #footer .footer-bottom .footer-tablet .copyright{font-weight: 400;font-size: 18px;line-height: 22px;color:var(--white-color);opacity: 0.4;}
+  #footer .footer-bottom .footer-detail-menu ul .fd-tit{font-size: 18px;line-height: 22px;}
+  #footer .footer-bottom .footer-detail-menu ul li a{font-size: 16px;line-height: 19px;}
+  #footer .footer-fix-menu{position: fixed;bottom: 35px;right: 10px;}
+
+  /* sub page common css */
+
+  /* common */
+  .wrap.sub-wrap{padding-top: 132px;}
+  
+  /* sub-nav */
+  .sub-nav{top:87px;}
+
+  /* banner */
+  .banner-section .container .sub-banner .sb-cont .sb-tit h2{font-size: 45px;line-height: 60px;}
+  .banner-section .container .sub-banner .sb-cont .sb-txt{font-size: 18px;line-height: 26px;}
+
+  /* You can us our Design tool for */
+    .Design_tool .container .dt-tit, .howtouse .container .htu-tit, .see_how_it_works .container .shiw-tit{
+    font-size: 45px;
+    line-height: 54px;
+    padding-bottom: 40px;
+    }  
+  
+    .Design_tool .container .dt-content .dtc-tit{
+    flex-flow: column wrap;
+    }
+    .Design_tool .container .dt-content .dtc-tit a,.Design_tool .container .dt-content .dtc-tit .dtc-tit-hover a{
+    font-size: 24px;
+    line-height: 28px;
+    }
+  
+    /* How to use timeline */
+    .howtouse,.see_how_it_works{
+      padding: 100px 0;
+    }
+
+    .ag-timeline-card_title {
+        font-size: 24px;
+    }
+    .ag-timeline-card_desc {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:900px){
+  .Design_tool{
+    padding: 100px 0;
+  }
+
+}
+
+@media screen and (max-width:800px){
+
+}
+
+/* **************************************** *
+ * media screen and (max-width: 767px) -- mobile
+ * **************************************** */
+  /*
+  * SUMMARY:
+  * 1) Hero Section
+  * 2) Our Service Section
+  * 3) Why Energy Planner? Section
+  * 4) Hello Solar Installers Section
+  * 5) what our customers say Section
+  * 6) free to get on board Section
+  * 7) footer
+  */
+@media screen and (max-width: 767px) {
+  .br-none{display: none;}
+  /* footer */
+  #footer{padding: 50px 0;}
+  #footer .footer-fix-menu{bottom: 20px;}
+  #footer .footer-fix-menu div{width: 50px;height: 50px;border-radius: 12px;}
+  #footer .footer-fix-menu div svg{width: 22px;height: 22px;}
+  
+  #footer .footer-top{height: auto;}
+  #footer .footer-top .footer-logo{float: inherit;text-align: center;margin-bottom: 25px;}
+  #footer .footer-top .footer-menu{float: inherit;flex-flow:row wrap;justify-content: center;margin:25px auto 0;padding:0 40px;width: 250px;}
+  #footer .footer-top .footer-logo{margin-right: 0;}
+  #footer .footer-top .footer-menu li{margin-right: 5px;}
+  #footer .footer-top .footer-menu li:nth-child(2n){margin-right: 0;}
+  #footer .footer-top .footer-menu li a{font-size: 12px;line-height: 14px;}
+
+  #footer .footer-top .footer-sns.mobileSns{display: flex;float:inherit;justify-content: center;}
+  #footer .footer-top .footer-sns li{margin-left: 15px;height:100%;line-height: 37px;width: 17px;}
+  #footer .footer-top .footer-sns li:nth-child(2){width: 9px;}
+  #footer .footer-top .footer-sns li img{width: 100%;}
+
+  #footer .footer-bottom{border-top: 0;padding: 0;margin-top: 25px;flex-flow:row wrap;text-align: center;justify-content: center;}
+  #footer .footer-bottom .footer-sns-mobile{display: flex;flex-flow:row nowrap;}
+  #footer .footer-bottom .footer-sns-mobile li{margin-left: 25px;}
+  #footer .footer-bottom .footer-sns-mobile li a {display: flex;justify-content: center;}
+  #footer .footer-bottom .footer-sns-mobile li:first-child{margin-left: 0px;}
+
+  
+  #footer .footer-bottom .footer-tablet .footer-sns-mobile{display: none;}
+  #footer .footer-bottom .footer-tablet .copyright{display: none;}
+  #footer .footer-bottom .footer-contact .copyright{display: block;font-size: 14px;line-height: 17px;}
+  #footer .footer-bottom .footer-detail-menu ul .fd-tit{font-size: 16px;line-height: 19px;}
+  #footer .footer-bottom .footer-detail-menu ul li a{font-size: 15px;line-height: 18px;}
+  #footer .footer-fix-menu{position: fixed;bottom: 35px;right: 10px;}
+  
+  /*  *******************sub page common css*********************** */
+
+  /* sub nav */
+  .sub-nav{top:87px;}
+  .sub-nav .container{justify-content: flex-start;width: 100%;}
+  .sub-nav .container .home-ico-box{margin-right: 10px;}
+  .sub-nav .container .sub-nav-cont li{padding: 0 10px;}
+  .sub-nav .container .sub-nav-cont li:first-child{width: 100px;}
+  .sub-nav .container .sub-nav-cont > li::before{display: none;}
+  .sub-nav .container .sub-nav-cont li a,
+  .sub-nav .container .sub-nav-cont li .sub-depth2 li a{font-size: 12px;line-height: 16px;}
+  .sub-nav .container .sub-nav-cont li .sub-depth2 li {padding: 0 5px;}
+  .sub-nav .container .sub-nav-cont li a svg{margin:0px 0 0 10px;}
+
+  /* banner */
+  .banner-section .container .sub-banner .sb-cont .sb-tit h2{font-size: 30px;line-height: 38px;text-align: center;}
+  .banner-section .container .sub-banner .sb-cont .sb-txt{font-size: 16px;line-height: 24px;text-align: center}
+  .banner-section .container .sub-banner .sb-cont .sub-bnr-Btn{margin: 75px auto 0;}
+
+  /* You can us our Design tool for */
+  .Design_tool{
+    padding: 80px 0;
+  }
+  .Design_tool .container{
+    flex-flow: column wrap;
+    }
+    .Design_tool .container .dt-tit, .howtouse .container .htu-tit, .see_how_it_works .container .shiw-tit{
+    font-size: 28px;
+    line-height: 34px;
+    padding-bottom: 40px;
+    }
+    
+    .Design_tool .container .icon-Box .dtc-tit a,.Design_tool .container .icon-Box .dtc-tit .dtc-tit-hover a{
+    width: 375px;
+    height: 75px;
+    font-size: 18px;
+    line-height: 26px;
+    padding:  0 20px;
+    }
+
+    .Design_tool .container .icon-Box .dtc-tit .dtc-tit-hover{
+    right: 50%;
+    transform: translateX(50%);
+    }
+
+    /* How to use timeline */
+    .howtouse{
+      padding: 80px 0 40px;
+    }
+    .howtouse .container{
+      width: 100%;
+     }
+      .ag-timeline_line {
+        left: 30px;
+      }
+    
+      .ag-timeline_item{
+        text-align: left;
+      }
+    
+      .ag-timeline-card_box,
+      .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
+        padding: 0 0 20px;
+      }
+      .ag-timeline-card_meta-box {
+        display: none;
+      }
+      .ag-timeline-card_point-box,
+      .ag-timeline_item:nth-child(2n) .ag-timeline-card_point-box {
+        margin: 0 0 0 8px;
+      }
+      .ag-timeline-card_point-box:nth-child(2n+1) {
+        display: inline-block;
+        position: initial;
+        top: 0;
+        left: initial;
+        transform: initial;
+        -webkit-transform: initial;
+        -moz-transform: initial;
+        -o-transform: initial;
+      }
+      .ag-timeline-card_point {
+        height: 40px;
+        line-height: 40px;
+        width: 40px;
+      }
+      .ag-timeline-card_item {
+        width: auto;
+        margin: -65px 0 0 75px;
+      }
+      .ag-timeline_item:nth-child(2n + 1) .ag-timeline-card_item,
+      .ag-timeline_item:nth-child(2n) .ag-timeline-card_item {
+        -webkit-transform: translateX(200%);
+        -moz-transform: translateX(200%);
+        -ms-transform: translateX(200%);
+        -o-transform: translateX(200%);
+        transform: translateX(200%);
+      }
+    .ag-timeline-card_title {
+      font-size: 22px;
+    }
+    .ag-timeline-card_desc {
+      font-size: 15px;
+    }
+
+/* See How it works */
+.see_how_it_works{
+  padding: 80px 0;
+}
+
+
+}
+
+@media screen and (max-width:600px){
+
+}
+
+
+@media screen and (max-width:520px){
+  .Design_tool .container .icon-Box .dtc-tit .dtc-tit-hover{
+    width: 100%;
+  }
+  .Design_tool .container .icon-Box .dtc-tit a,.Design_tool .container .icon-Box .dtc-tit .dtc-tit-hover a{
+    width: 100%;
+    }
+    
+
+}
+
+/* **************************************** *
+ * media screen and (max-width: 399px)
+* **************************************** */
+/*
+* SUMMARY:
+* 1) Our Service Section
+*/
+@media screen and (max-width:399px){
+
+  
+}
+
+
+/* **************************************** *
+ * media screen and (max-width: 359px)
+* **************************************** */
+/*
+* SUMMARY:
+* 1) Our Service Section
+* 2) footer
+*/
+@media screen and (max-width:359px){
+
+
+}

@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* **************************************** *
+ * CSS Variables
+ * **************************************** */
+/*
+ * File       : blog.css
+ * DATA       : 2022.08.28
+ * Author     : @ansk28
+ * Guideline  : SUPERBEE.1.0.0
+ *
+ * SUMMARY:
+ * 1) Banner
+ * 2) blog gallery
+ */
+
+
+/* **************************************** *
+ * Banner
+ * **************************************** */
+.pricing-banner{width: 100%;height: 600px;background:url('../images/about-bg.png') no-repeat center/cover;display: flex;flex-flow:column nowrap;justify-content: center;align-items: center;}
+.pricing-banner .pb-tit{font-weight: 700;font-size: 60px;line-height: 72px;letter-spacing:-0.03em;color:var(--white-color);margin-bottom: 50px;text-align: center;}
+.pricing-banner .pb-txt{font-weight: 500;font-size: 26px;line-height: 30px;letter-spacing:-0.04em;color:var(--white-color);text-align: center;}
+
+
+
+/* **************************************** *
+ * blog gallery
+ * **************************************** */
+
+.blog-gall-wrap{padding: 130px 0;}
+.blog-gall-wrap .container{width: 1620px;}
+
+.blog-gall-wrap .container .bgw-info{display: flex;flex-flow:row nowrap;width: 100%;}
+.blog-gall-wrap .container .bgw-info .bgw-list{margin-right: 20px;border:1px solid var(--gray-color-01); border-radius: 10px;overflow: hidden;}
+.blog-gall-wrap .container .bgw-info .bgw-list:last-child{margin-right: 0px;}
+.blog-gall-wrap .container .bgw-info .bgw-list .bgw-thumb{width: 100%;}
+.blog-gall-wrap .container .bgw-info .bgw-list .bgw-thumb img{object-fit: cover;width: 100%;}
+
+.blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont{padding: 10px 30px 50px;}
+.blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-tit{font-weight: 700;font-size: 22px;line-height: 26px;letter-spacing:-0.03em;color:var(--black-color);margin-bottom: 10px;}
+
+.blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-txt{font-weight: 400;font-size: 18px;line-height: 22px;letter-spacing:-0.04em;color:var(--gray-color-03);}
+.blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-desc{margin-top: 40px;display: flex;flex-flow:row nowrap;justify-content: space-between;}
+.blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-desc .bgwc-date{font-weight: 500;font-size: 15px;line-height: 19px;letter-spacing:-0.04em;color:var(--gray-color-02);}
+
+
+.bgw-pagination{text-align: center;margin-top: 80px;}
+.bgw-pagination ul{display: inline-block;}
+.bgw-pagination ul li{display: inline;text-align: center;}
+.bgw-pagination ul li a{float: left;display: block;font-weight: 500;font-size: 15px;line-height: 18px;color:#bbb;padding: 11px 12px;}
+
+.bgw-pagination ul li.bgw-prev a {padding: 0;margin-right: 30px;}
+.bgw-pagination ul li.bgw-next a {padding: 0;margin-left: 30px;}
+
+.bgw-pagination ul li.active a{cursor:default;}
+.bgw-pagination ul li.active a, .bgw-pagination ul li a:hover{color:var(--black-color);}
+
+
+@media screen and (max-width: 1640px){
+  .blog-gall-wrap .container{width: 100%;}
+  .blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-tit{font-size: 20px;line-height: 24px;}
+  .blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-txt{font-size: 16px;line-height: 20px;}
+}
+
+@media screen and (max-width: 1240px){
+  .pricing-banner .pb-tit{font-size: 45px;line-height: 60px;}
+  .pricing-banner .pb-txt{font-size: 22px;line-height: 26px;}
+  .blog-gall-wrap .container{width: 100%;}
+  .blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-tit{font-size: 18px;line-height: 22px;}
+  .blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-txt{font-size: 14px;line-height: 18px;}
+  .blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-desc .bgwc-date{font-size: 13px;line-height: 17px;}
+}
+
+@media screen and (max-width: 1023px){
+  .blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-tit{font-size: 16px;line-height: 20px;}
+  .blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-txt{font-size: 13px;line-height: 17px;}
+  .blog-gall-wrap .container .bgw-info .bgw-list .bgw-cont .bgwc-desc .bgwc-date{font-size: 13px;line-height: 17px;}
+}
+@media screen and (max-width: 767px){
+  .pricing-banner .pb-tit{font-size: 30px;line-height: 38px;}
+  .pricing-banner .pb-txt{font-size: 20px;line-height: 24px;}
+  .blog-gall-wrap .container .bgw-info{flex-flow:column nowrap;}
+  .blog-gall-wrap .container .bgw-info .bgw-list{margin-right: 0;margin-bottom: 20px;}
+  .blog-gall-wrap .container .bgw-info .bgw-list:last-child{margin-bottom: 0;}
+}
